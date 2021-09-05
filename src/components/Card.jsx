@@ -1,5 +1,4 @@
-import React, { useState, useRef } from 'react'
-import { busqueda } from '../reduxs/actions'
+import React from 'react'
 import { connect } from 'react-redux'
 import './Card.css'
 

@@ -12,12 +12,30 @@
 
 .link{
     margin: 0em 1em 0em 1em;
+    color: white;
 }
 
 .input{
+    border: 1px solid;
+    outline: none;
     width: 10em;
+    margin-right: 1em;
+    border-radius: 0.5em;
+    padding: 0.3em
 }
 
 .btn{
     width: 5em;
+    color: white;
+    border-radius: 0.5em;
+    background-color: #261c2c00;
+    border: none;
+    border: 2px solid white;
+    padding: 0.3em
+}
+
+.btn:hover{
+    background-color: #413C69;
+    cursor: pointer;
+    transition-duration: 0.2s;
 }
