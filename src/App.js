@@ -1,7 +1,7 @@
 import React from 'react'
 import { Route } from 'react-router-dom'
 import Nav from './components/Nav.jsx'
-import Home from './Home';
+import Cards from './components/Cards.jsx'
 
 
 function App() {
@@ -9,7 +9,7 @@ function App() {
     <div className="App">
       <Nav/>
       <Route exact path="/">
-        <Home />
+        <Cards />
       </Route>
       <Route exact path="/Favoritos">
         Favoritos

@@ -1,0 +1,23 @@
+.img{
+    height: 18em;
+    width: 12em;
+    border-radius: 0.2em;
+}
+
+.card{
+    color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 13em;
+    margin: 1em 0.3em 1em 0.3em;
+    border-radius: 0.5em;
+    border: solid 2px white;
+    background-color: rgba(0, 0, 0, 0.507);
+}
+
+.texto{
+    display: flex;
+    flex-direction: column;
+}
+

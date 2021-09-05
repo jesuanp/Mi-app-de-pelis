@@ -1,0 +1,23 @@
+.nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: #261C2C;
+    padding: 1em;
+}
+
+.prueba{
+    display: flex;
+    justify-self: center;
+}
+
+.link{
+    margin: 0em 1em 0em 1em;
+}
+
+.input{
+    width: 10em;
+}
+
+.btn{
+    width: 5em;
+}
