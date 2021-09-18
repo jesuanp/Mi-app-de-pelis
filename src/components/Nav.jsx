@@ -19,18 +19,21 @@ function Nav({busqueda}){
     }
 
     return (
-        <>
-            <nav className="nav">
-                <div className="prueba">
-                    <NavLink to="/"className="link">Home</NavLink>
-                    <NavLink to="/favoritos" className="link">Favoritos</NavLink>
-                </div>
-                <div>
-                    <input name="buscar" placeholder="Buscar pelicula..." ref={myRef} onChange={handleOnChange} className="input"/>
-                    <button onClick={handleOnClink} className="btn">Buscar</button>
-                </div>
-            </nav>
-        </>
+        <header>
+            {/* <nav className='nav2'> */}
+                <nav className="nav">
+                    <div className="prueba">
+                        <NavLink to="/app"className="link">Home</NavLink>
+                        <NavLink to="/app/favoritos" className="link">Favoritos</NavLink>
+                    </div>
+                    <div>
+                        <input name="buscar" placeholder="Buscar pelicula..." ref={myRef} onChange={handleOnChange} className="input"/>
+                        <button onClick={handleOnClink} className="btn">Buscar</button>
+                    </div>
+                </nav>
+            {/* </nav> */}
+            {/* <nav className='nav2'></nav> */}
+        </header>
     )
 }
 

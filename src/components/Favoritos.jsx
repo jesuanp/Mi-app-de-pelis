@@ -1,13 +1,12 @@
 import React from "react";
-import Card from "./Card";
+import PelisFav from "./Favorito.jsx";
 import './Cards.css'
 
-export default function Cards(){
+export default function Favoritos(){
 
     return (
         <div className="cards">
-            <Card/>
+            <PelisFav />
         </div>
     )
 }
-

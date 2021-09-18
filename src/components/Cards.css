@@ -3,4 +3,11 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    position: absolute;
+    margin-top: 3em;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
 }

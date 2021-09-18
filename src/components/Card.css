@@ -2,6 +2,7 @@
     height: 18em;
     width: 12em;
     border-radius: 0.2em;
+    margin-bottom: 1.7em;
 }
 
 .card{
@@ -10,10 +11,12 @@
     align-items: center;
     flex-direction: column;
     width: 13em;
-    margin: 1em 0.3em 1em 0.3em;
+    margin: 1.5em 0.3em 0em 0.3em;
     border-radius: 0.5em;
     border: solid 2px white;
     background-color: rgba(0, 0, 0, 0.507);
+    backdrop-filter: blur(5px);
+    position: relative;
 }
 
 .texto{
@@ -21,3 +24,20 @@
     flex-direction: column;
 }
 
+.btn2{
+    width: 10em;
+    color: white;
+    border-radius: 0.5em;
+    background-color: #261c2c00;
+    border: none;
+    border: 2px solid white;
+    padding: 0.3em;
+    position: absolute;
+    bottom: 0em;
+}
+
+.btn2:hover{
+    background-color: rgba(255, 255, 255, 0.404);
+    cursor: pointer;
+    transition-duration: 0.2s;
+}
